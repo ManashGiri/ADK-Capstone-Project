@@ -75,6 +75,7 @@ travel-planner/
 ├── __init__.py
 ├── agent.py
 ├── .env
+├── .gitignore
 └── README.md
 
 ```
