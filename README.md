@@ -14,6 +14,7 @@ This project demonstrates advanced multi-agent system architecture using Google'
 ### ✨ Key Features
 
 ✅ **Parallel Execution** - All agents query simultaneously for faster results
+
 ✅ **A2A Protocol** - Standard Google inter-agent communication via HTTP
 ✅ **Real Pricing** - Realistic Indian rupee costs for flights, hotels, activities
 ✅ **Multiple Options** - Budget and premium itinerary choices
