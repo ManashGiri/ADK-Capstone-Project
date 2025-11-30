@@ -214,9 +214,9 @@ This project demonstrates:
 
 ## 🤝 Contributors
 
-**Manash Giri**
-**Omkar Vaidya**
-**Anchal Vaishya**
+- **Manash Giri**
+- **Omkar Vaidya**
+- **Anchal Vaishya**
 
 
 ## ⭐ If you found this helpful, please star the repository!
