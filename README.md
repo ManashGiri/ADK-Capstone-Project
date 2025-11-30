@@ -13,16 +13,15 @@ This project demonstrates advanced multi-agent system architecture using Google'
 
 ### ✨ Key Features
 
-✅ **Parallel Execution** - All agents query simultaneously for faster results
-
-✅ **A2A Protocol** - Standard Google inter-agent communication via HTTP
-✅ **Real Pricing** - Realistic Indian rupee costs for flights, hotels, activities
-✅ **Multiple Options** - Budget and premium itinerary choices
-✅ **Day-by-Day Schedule** - Detailed timing for each activity
-✅ **Cost Breakdown** - Complete financial analysis
-✅ **Smart Ranking** - Recommendations with pros/cons analysis
-✅ **Web Interface** - Interactive HTML UI for easy testing
-✅ **Production Ready** - Fully tested and documented
+- ✅ **Parallel Execution** - All agents query simultaneously for faster results
+- ✅ **A2A Protocol** - Standard Google inter-agent communication via HTTP
+- ✅ **Real Pricing** - Realistic Indian rupee costs for flights, hotels, activities
+- ✅ **Multiple Options** - Budget and premium itinerary choices
+- ✅ **Day-by-Day Schedule** - Detailed timing for each activity
+- ✅ **Cost Breakdown** - Complete financial analysis
+- ✅ **Smart Ranking** - Recommendations with pros/cons analysis
+- ✅ **Web Interface** - Interactive HTML UI for easy testing
+- ✅ **Production Ready** - Fully tested and documented
 
 ---
 
@@ -201,15 +200,15 @@ Include high-end hotel recommendations and premium experiences
 
 This project demonstrates:
 
-✅ **Multi-Agent Architecture** - Specialist pattern with orchestration
-✅ **Google ADK Framework** - Latest agent development tools
-✅ **A2A Protocol** - Inter-agent HTTP communication
-✅ **Parallel Processing** - Concurrent specialist queries
-✅ **REST API Design** - FastAPI with OpenAPI docs
-✅ **System Integration** - Complex workflow coordination
-✅ **Error Handling** - Resilience and graceful degradation
-✅ **Web Interface** - Interactive user experience
-✅ **Production Ready** - Complete documentation and deployment
+- ✅ **Multi-Agent Architecture** - Specialist pattern with orchestration
+- ✅ **Google ADK Framework** - Latest agent development tools
+- ✅ **A2A Protocol** - Inter-agent HTTP communication
+- ✅ **Parallel Processing** - Concurrent specialist queries
+- ✅ **REST API Design** - FastAPI with OpenAPI docs
+- ✅ **System Integration** - Complex workflow coordination
+- ✅ **Error Handling** - Resilience and graceful degradation
+- ✅ **Web Interface** - Interactive user experience
+- ✅ **Production Ready** - Complete documentation and deployment
 
 ---
 
