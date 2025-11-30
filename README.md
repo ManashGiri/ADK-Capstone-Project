@@ -107,13 +107,10 @@ source .venv/bin/activate
 ### **3. Create .env File**
 
 ```bash
-# Copy example environment file
-cp .env.example .env
-
 # Edit .env and add your Google API key
-nano .env
+nano travel_planner/.env
 # OR
-code .env
+touch travel_planner/.env
 ```
 
 **.env file content:**
