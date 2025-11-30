@@ -129,6 +129,7 @@ GOOGLE_GENAI_USE_VERTEXAI=0
 
 ```bash
 pip install google-adk
+pip install -q google-adk[a2a]
 ```
 
 ### **5. Run Travel Planner Agent**
