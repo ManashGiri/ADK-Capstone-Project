@@ -1,4 +1,4 @@
-# 🌍 Multi-Agent Travel Planner with Google ADK
+# 🌍 Agent Odysseys: A Multi-Agent Travel Planner
 
 A production-ready multi-agent travel planning system built with **Google Agent Development Kit (ADK)** and **Agent2Agent (A2A) Protocol**. Plan complete trips with parallel specialist agents for flights, accommodations, and activities.
 
