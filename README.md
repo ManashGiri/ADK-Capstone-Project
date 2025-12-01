@@ -32,11 +32,11 @@ This project demonstrates advanced multi-agent system architecture using Google'
 │              Web Browser (127.0.0.1:8000)              │
 └───────────────┬─────────────────┘
                            │ HTTP POST
-        ┌────────-──▼──────────┐
+        ┌──────────▼──────────┐
         │          Coordinator Agent         │
         │             (Port 8000)            │
-        └──────────┬──────-────┘
-                ┌────-─┼────────────┐
+        └──────────┬──────────┘
+                ┌───-──┼────────────┐
                 │         │                     │ (Parallel)
       ┌─────▼─┐ ┌─—▼──——──┐  ┌─-───▼─-─┐
       │   Flight   │ │    Stays    │  │   Activity  │
