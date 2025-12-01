@@ -42,7 +42,7 @@ This project demonstrates advanced multi-agent system architecture using Google'
       │   Flight   │ │    Stays    │  │   Activity  │
       │   Agent    │ │    Agent    │  │    Agent    │
       │   (8001)   │ │    (8002)   │  │    (8003)   │
-      └────┬──┘ └─-────┬-─┘    └-────┬─-─┘
+      └────┬──┘ └─-────┬-─┘  └────┬─—─┘
                │                │              │
                └────────-─┼────────┘
                                  │ JSON
