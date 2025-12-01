@@ -29,31 +29,30 @@ This project demonstrates advanced multi-agent system architecture using Google'
 
 ```
 ┌─────────────────────────────────┐
-│   Web Browser (127.0.0.1:8000)  │
-│   HTML Interface                │
-└────────────────┬────────────────┘
-                 │ HTTP POST
-      ┌──────────▼──────────┐
-      │  Coordinator Agent  │
-      │  (Port 8000)        │
-      └──────────┬──────────┘
-           ┌─────┼─────┐
-           │     │     │ (Parallel)
-      ┌────▼──┐ ┌─────▼──┐ ┌────▼──┐
-      │Flights│ │ Stays  │ │Activity│
-      │Agent  │ │ Agent  │ │ Agent  │
-      │(8001) │ │(8002)  │ │(8003) │
-      └────┬──┘ └─────┬──┘ └────┬──┘
-           │         │         │
-           └─────────┼─────────┘
-                     │ JSON
-           ┌─────────▼──────────┐
-           │ Synthesize Results │
-           │ Create Itinerary   │
+│              Web Browser (127.0.0.1:8000)              │
+└───────────────┬─────────────────┘
+                           │ HTTP POST
+        ┌────────-──▼──────────┐
+        │          Coordinator Agent         │
+        │             (Port 8000)            │
+        └──────────┬──────-────┘
+                ┌────-─┼────────────┐
+                │         │                     │ (Parallel)
+      ┌─────▼─┐ ┌─—▼──——──┐  ┌─-───▼─-─┐
+      │   Flight   │ │    Stays    │  │   Activity  │
+      │   Agent    │ │    Agent    │  │    Agent    │
+      │   (8001)   │ │    (8002)   │  │    (8003)   │
+      └────┬──┘ └─-────┬-─┘    └-────┬─-─┘
+               │                │              │
+               └────────-─┼────────┘
+                                 │ JSON
+           ┌────────────▼───────┐
+           │        Synthesize Results        │
+           │         Create Itinerary         │
            └─────────┬──────────┘
-                     │ JSON Response
+                            │ JSON Response
            ┌─────────▼──────────┐
-           │ Display in Browser │
+           │         Display in Browser       │
            └────────────────────┘
 ```
 
