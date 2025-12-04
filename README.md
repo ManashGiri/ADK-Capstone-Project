@@ -30,7 +30,7 @@ This project demonstrates advanced multi-agent system architecture using Google'
 
 ```
 ┌─────────────────────────────────┐
-│   Web Browser (127.0.0.1:5000)  │
+│   Web Browser (127.0.0.1:8000)  │
 │   HTML Interface                │
 └────────────────┬────────────────┘
                  │ HTTP POST
